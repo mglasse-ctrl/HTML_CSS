@@ -1,0 +1,40 @@
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Home</title>
+</head>
+<body>
+ <header><h1>HTML and CSS</h1></header> 
+  <nav class="navbar">
+    <div class="menu-btn">☰</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="sevices.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+    
+<section class="pageContent"> 
+<h2>What Is HTML?</h2>
+<p>HTML stands for HyperText Markup Language, and it’s the basic building block of every webpage on the internet. It tells the browser what content to show and how that content is structured. Without HTML, a webpage wouldn’t know where to place text, images, links, or anything else.</p>
+
+<h2>Why HTML Matters</h2>
+<p>HTML is important because it gives meaning to the content on a page. A heading tells the browser that text is a title. A paragraph tells it that text is part of the main body. This structure helps both people and computers understand what your page is about, making the web easier to use and navigate.</p>
+
+<h2>Your First Steps as a Web Developer</h2>
+<p>Learning HTML is the first step toward creating your own websites. Once you understand how tags work, you can start building pages that look clean, organised, and professional. From here, you’ll be able to add styling with CSS and interactivity with JavaScript, but it all begins with simple HTML tags</p>
+
+ 
+</section> 
+ <script>
+  document.querySelector(".menu-btn").addEventListener("click", () => {
+  document.querySelector(".navbar").classList.toggle("active");
+  });
+</script> 
+  
+</body>
+</html>
